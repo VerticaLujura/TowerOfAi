@@ -1,0 +1,2 @@
+Unitを利用するときはUnitDataを生成してください。Unitオブジェクトが生成時、自信をUnitDataのListに格納します。
+また、UnitDataのUnitListにコンポーネント管理でUnitを登録しておいてください
