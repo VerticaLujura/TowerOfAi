@@ -9,12 +9,15 @@ public class PlayerOperateDirector : MonoBehaviour
     public void setChoosingUnit(GameObject go){
         choosingUnit=go;
     }
+    public  void createUnit(){
+            Instantiate(choosingUnit);
+    }
     void Start(){
         choosingUnit=GameObject.Find("UnitsData").GetComponent<UnitsData>().UnitsList[0];
     }
     void Update(){
         if(Input.GetKeyDown(KeyCode.Space)){
-            Instantiate(choosingUnit);
+        createUnit();
         }
     }
 }
