@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class generateButton : MonoBehaviour
 {
-    void OnClick(){
+    public void OnClick(){
         GameObject.Find("PlayerOperateDirector").GetComponent<PlayerOperateDirector>().createUnit();
     }
 }

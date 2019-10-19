@@ -12,7 +12,7 @@ void move(){
     transform.Translate(new Vector3(moveSpeed,0,0));
 }
 void Start(){
-    GameObject.Find("UnitsData").GetComponent<UnitsData>().addUnitsList(this.gameObject);
+    GameObject.Find("UnitsData").GetComponent<UnitsData>().addRunningUnitsList(this.gameObject);
 }
 void Update(){
     move();

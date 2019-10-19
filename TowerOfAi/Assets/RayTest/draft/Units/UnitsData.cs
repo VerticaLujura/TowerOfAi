@@ -5,8 +5,14 @@ using UnityEngine;
 public class UnitsData : MonoBehaviour
 {
     public List<GameObject> UnitsList=new List<GameObject>();
-    public void addUnitsList(GameObject go){
-        UnitsList.Add(go);
+    public List<GameObject> RunningUnitsList=new List<GameObject>();
+
+    public void addRunningUnitsList(GameObject go){
+        RunningUnitsList.Add(go);
     }
-    
+    public void getUnitsList(){
+    }
+    public GameObject getUnit(int index){
+        return UnitsList[index];
+    }
 }

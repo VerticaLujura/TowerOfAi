@@ -1,3 +1,5 @@
 PlayerOperateDirectorオブジェクトは、プレイヤーの操作に応じて各種の関数を実行します。操作を可能にする際は生成してください。
 choosingUnitは、プレイヤーが選択したUnitオブジェクトを記憶するための変数です。
 ただし選択は未実装で、デフォルトでUnitList[0]が選択されています。
+
+generateButtonを押すと、generateButtonスクリプトを介して、PlayerOPerateDirectorのcreateUnit()が呼び出されるお。
