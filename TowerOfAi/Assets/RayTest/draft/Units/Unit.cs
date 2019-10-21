@@ -8,13 +8,13 @@ public int hp;
 public int attack;
 public float moveSpeed=0.1f;
 
-void move(){
+void Move(){
     transform.Translate(new Vector3(moveSpeed,0,0));
 }
 void Start(){
-    GameObject.Find("UnitsData").GetComponent<UnitsData>().addRunningUnitsList(this.gameObject);
+    GameObject.Find("UnitsData").GetComponent<UnitsData>().AddRunningUnitsList(this.gameObject);
 }
 void Update(){
-    move();
+    Move();
 }
 }

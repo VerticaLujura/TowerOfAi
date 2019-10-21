@@ -7,12 +7,13 @@ public class UnitsData : MonoBehaviour
     public List<GameObject> UnitsList=new List<GameObject>();
     public List<GameObject> RunningUnitsList=new List<GameObject>();
 
-    public void addRunningUnitsList(GameObject go){
+    public void AddRunningUnitsList(GameObject go){
         RunningUnitsList.Add(go);
     }
-    public void getUnitsList(){
+    public List<GameObject> GetUnitsList(){
+        return UnitsList;
     }
-    public GameObject getUnit(int index){
+    public GameObject GetUnit(int index){
         return UnitsList[index];
     }
 }

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class generateButton : MonoBehaviour
+public class GenerateButton : MonoBehaviour
 {
     public void OnClick(){
-        GameObject.Find("PlayerOperateDirector").GetComponent<PlayerOperateDirector>().createUnit();
+        GameObject.Find("PlayerOperateDirector").GetComponent<PlayerOperateDirector>().CreateUnit();
     }
 }
