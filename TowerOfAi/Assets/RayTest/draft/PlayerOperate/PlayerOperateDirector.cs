@@ -9,7 +9,8 @@ public class PlayerOperateDirector : MonoBehaviour
     List<GameObject> UnitsList;
 
     public  void CreateUnit(){
-            Instantiate(UnitsList[choosingUnitIndex]);
+        Vector3 temp = GameObject.Find("P_UnitRunStartPoint").GetComponent<Transform>().position;
+            Instantiate(UnitsList[choosingUnitIndex],GameObject.Find("P_UnitRunStartPoint").GetComponent<Transform>().position,Quaternion.identity);
             Debug.Log("UnitsList["+choosingUnitIndex+"]が生成されました");
     }
     public void ChangeChooosingUnitIndex(int x){
