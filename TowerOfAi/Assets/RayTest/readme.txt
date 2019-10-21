@@ -1,0 +1,4 @@
+PixcelPerfectCameraの留意点
+・アセットを読み込む際はFilterModeとCompressionをnoneに
+・メインカメラにPixelerfectCameraコンポーネントをアタッチしていないと使えません
+・上コンポーネントのRunInEditModeをオンにすることでGameビューの表示が実際のゲーム画面になります
