@@ -1,0 +1,2 @@
+・2d PIxel Perfectを使う時のUI設定について
+canvasのrenderModeをworldSpaceに設定し、EventCameraにmainCameraをアタッチすること
