@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/RayTest/draft/Scenes/sample.unity
+    guid: 37b7ae7a58cf0654fb1e108281828fbd
   m_configObjects: {}
