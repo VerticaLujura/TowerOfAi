@@ -1,1 +1,1 @@
-ドット表現を目指す際には、画像のFilterModeとCompressionをnoneにしましょう。
+ドット表現を目指す際には、画像のFilterModeとCompressionをnoneにしましょう。w
