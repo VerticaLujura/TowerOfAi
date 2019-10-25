@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GenerateButton : MonoBehaviour
+public class generateButton : MonoBehaviour
 {
     public void OnClick(){
         GameObject.Find("PlayerOperateDirector").GetComponent<PlayerOperateDirector>().CreateUnit();
