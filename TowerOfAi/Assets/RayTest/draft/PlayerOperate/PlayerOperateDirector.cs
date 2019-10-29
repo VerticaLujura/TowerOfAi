@@ -9,7 +9,7 @@ public class PlayerOperateDirector : MonoBehaviour
     List<GameObject> UnitsList;
 
     public  void CreateUnit(){
-            Instantiate(UnitsList[choosingUnitIndex]);
+            Instantiate(UnitsList[choosingUnitIndex],new Vector3(-1.5f,0,0),Quaternion.identity);
             Debug.Log("UnitsList["+choosingUnitIndex+"]が生成されました");
     }
     public void ChangeChooosingUnitIndex(int x){
